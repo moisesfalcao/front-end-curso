@@ -1,1 +1,124 @@
-/* arquivo css */
+/* global */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img.responsive{
+    width: 100%;
+}
+
+/* reset CSS */
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-family:arial;
+    font-size: 18px;
+    font-weight:300;
+    background: none;
+    list-style: none;
+}
+/* /reset CSS */
+
+
+h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* /global */
+
+
+/* header */
+header{
+    
+}
+header section{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+header nav{
+    margin-bottom: 10px;
+}
+header nav.hamburguer{
+
+}
+header nav.hamburguer button span{
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: #000;
+    margin-bottom: 6px;
+}
+
+header nav.tools ul{
+    display: flex;
+}
+header nav.tools ul a{
+    padding: 6px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+header #logo{
+    width: 371px;
+    margin-bottom: 10px;
+    display:block;
+    background: white;
+}
+
+header section.stories ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+header section.stories ul li{
+    width: 10%;
+}
+header section.stories ul li img{
+    border-radius: 100%;
+    border:4px solid #000;
+}
+header section.stories ul li figcaption{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* /header */
+
+/* main */
+main{
+
+}
+main section.modulos-home{
+    padding-top: 50px;
+}
+main section.modulos-home h2{
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+
+}
+main section.modulos-home ul{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+main section.modulos-home ul li{
+    width: 23%;
+}
+/* /main */
+
+
+
+footer{
+    background: blue;
+    height: 100px;
+}
