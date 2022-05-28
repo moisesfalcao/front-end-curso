@@ -145,7 +145,6 @@ header section.stories ul li figcaption{
 @media (max-width: 1024px){
 
     header section.stories ul li{
-
         width: 10%;
     }
 
@@ -158,23 +157,32 @@ header section.stories ul li figcaption{
 
 
     header section.stories{
+        display: block;
         width: 100%;
         overflow: auto;
     }
   
     header section.stories ul{
         display: block;
-        width: 2000px;
-        max-width: 5000px;
+        width:fit-content;
+        max-width:fit-content;
+        white-space: nowrap;
+        
+
     }
 
     header section.stories ul li{
         display: inline-block;
-        width: 60px;
+        width: 23%;
+        margin: 0 8px;
+        
     }
 
     header section.stories ul li figcaption{
-        display: none;
+       width: 100%;
+       display: block;
+       white-space:normal;
+       font-size: 18px;
     }
 
 }
@@ -190,6 +198,7 @@ header section.stories ul li figcaption{
 main{
 
 }
+
 main section.modulos-home{
     padding: 50px 0;
 }
@@ -209,13 +218,17 @@ main section.modulos-home ul li{
     width: 23%;
 }
 
+main section.modulos-home ul li figure img{
+    border: 2px solid #000;
+}
+
 main section.modulos-home ul li figcaption{
     font-size: 20px;
     margin-top: 10px;
     line-height: 30px;
 }
 
-/* modulos-home smartphones */
+/* modulos-home tablets */
 @media (max-width: 1024px){
     main section.modulos-home ul{
         display: block;
@@ -225,16 +238,22 @@ main section.modulos-home ul li figcaption{
        width: 49%;
     }
 }
-/* /modulos-home smartphones */
+/* /modulos-home tablets */
 
 /* modulos-home smartphones */
 @media (max-width: 767px){
     main section.modulos-home ul{
         display: block;
+        text-align: center;
+
     }
     main section.modulos-home ul li{
        display: inline-block;
-       width: 100%;
+       width: 95%;
+    }
+    
+    main section.modulos-home ul li figcaption{
+        margin-bottom: 50px;
     }
 }
 /* /modulos-home smartphones */
@@ -270,3 +289,11 @@ footer{
     background: blue;
     height: 100px;
 }
+
+
+
+
+
+
+
+
