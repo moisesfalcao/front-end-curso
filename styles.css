@@ -294,6 +294,34 @@ footer{
 
 
 
+div.exemplo{
+    background: #ff0000;
+    width: 100%;
+    height: 300px;
+    max-width: 1300px;
+    margin: 30px auto;
+}
+
+@media (max-width: 1024px){
+
+    div.exemplo{
+        width: 90%;
+        max-width: 900px;
+        border-radius: 20px;
+    }
+
+}
+
+@media (max-width: 767px){
+
+    div.exemplo{
+        width: 96%;
+        max-width: none;
+        border-radius: 40px;
+    }
+
+}
+
 
 
 
