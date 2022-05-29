@@ -1,13 +1,4 @@
 /* global */
-.container{
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-img.responsive{
-    width: 100%;
-}
 
 
 /* reset CSS */
@@ -24,6 +15,18 @@ img.responsive{
 /* /reset CSS */
 
 
+/* container */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* /container */
+
+img.responsive{
+    width: 100%;
+}
+
 h1{
     font-size: 24px;
     font-weight: 700;
@@ -38,7 +41,7 @@ header{
 }
 header section{
     display: flex; 
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
 header nav{
