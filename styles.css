@@ -86,16 +86,9 @@ header section.stories ul{
     margin: 50px 0;
 }
 
-
-
-
 header section.stories ul li{
     width: 10.5%;
 }
-
-
-
-
 
 header section.stories ul li img{
     border-radius: 100%;
@@ -106,10 +99,6 @@ header section.stories ul li img{
 header section.stories ul li img:hover{
     border:4px solid rgb(255, 255, 255);
 }
-
-
-
-
 
 header section.stories ul li:nth-child(1) img{
     background: aqua;
@@ -143,68 +132,41 @@ header section.stories ul li:nth-child(8) img{
     background:midnightblue
 }
 
-
-
 header section.stories ul li figcaption{
     text-align: center;
-    margin-top: 20px;
-
+    margin-top: 10px;
 }
-
-
-
-
-
-
-
 
 
 /* stories tablets */
 @media (max-width: 1024px){
-
-    header section.stories ul li{
-        width: 10%;
-    }
-
-}
-
-
-
-/* stories smartphones */
-@media (max-width: 767px){
-
-
     header section.stories{
         display: block;
         width: 100%;
         overflow: auto;
     }
-  
     header section.stories ul{
         display: block;
-        width:fit-content;
-        max-width:fit-content;
+        width: fit-content;
         white-space: nowrap;
-        
-
     }
-
     header section.stories ul li{
         display: inline-block;
-        width: 23%;
-        margin: 0 8px;
-        
+        width: 85px;
+        margin: 0 10px;
     }
-
     header section.stories ul li figcaption{
-       width: 100%;
-       display: block;
-       white-space:normal;
-       font-size: 18px;
+        white-space: normal;
     }
-
 }
-/* /stories smartphones */
+
+/* stories smartphones */
+@media (max-width: 767px){
+    header section.stories ul li{
+        width: 70px;
+        margin: 0 7px;
+    }
+}
 
 
 
