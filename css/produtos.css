@@ -1,0 +1,46 @@
+/* css reset */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight:300;
+    margin: 0;
+    padding: 0;
+    color: black;
+    border: 0;
+    list-style: none;
+}
+
+
+
+/* início do cabeçalho */
+header{
+    background:coral;
+}
+header nav {
+    width: 100%;
+    max-width: 1200px;
+    background:blueviolet;
+    margin: 0 auto;
+}
+
+header ul li p {
+    color: brown;
+}
+
+header nav h1{ 
+    color: #fff;
+}
+
+/* conteudo do site */
+main ul{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    background: black;
+    padding: 20px;
+}
+main ul li{
+    width: 20%;
+    padding: 20px;
+    background: #fff;
+}
