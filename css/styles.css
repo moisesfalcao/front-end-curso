@@ -44,12 +44,19 @@ header section{
     justify-content:space-between;
     align-items: center;
 }
+
+
+
 header nav{
     margin-bottom: 10px;
 }
+
+
 header nav.hamburguer{
 
 }
+
+
 header nav.hamburguer button span{
     display: block;
     width: 40px;
