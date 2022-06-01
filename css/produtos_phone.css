@@ -1,0 +1,19 @@
+@media (max-width: 767px){
+
+
+
+    header nav {
+        width: 95%;
+    }
+
+    main ul{
+        padding: 20px 0px;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    main ul li h2{
+        font-size: 30px;
+        font-weight: 700;    }
+
+}

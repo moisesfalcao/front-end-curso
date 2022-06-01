@@ -1,0 +1,17 @@
+@media (max-width: 1024px){
+
+
+    header nav {
+        width: 90%;
+    }
+
+    main ul{
+        padding: 20px 0px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+
+
+}
