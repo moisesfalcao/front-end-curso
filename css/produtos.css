@@ -10,18 +10,38 @@
     list-style: none;
 }
 
-
+body{
+    padding-top: 100px;
+}
 
 /* início do cabeçalho */
 header{
     background:coral;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
 }
+
 header nav {
     width: 100%;
     max-width: 1200px;
     background:blueviolet;
     margin: 0 auto;
 }
+@media (max-width: 1024px){
+    header nav {
+        width: 90%;
+    }
+}
+@media (max-width: 767px){
+    header nav {
+        width: 95%;
+    }
+}
+
 
 header ul li p {
     color: brown;
@@ -38,9 +58,96 @@ main ul{
     height: 200px;
     background: black;
     padding: 20px;
+    margin-bottom: 50px;
 }
+@media (max-width: 1024px){
+    main ul{
+        padding: 20px 0px;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 767px){
+    main ul{
+        width: 95%;
+        flex-wrap: wrap;
+    }
+}
+
+
 main ul li{
     width: 370px;
     padding: 20px;
     background: #fff;
+}
+@media (max-width: 767px){
+    main ul li{
+        width: 100%;
+        margin: 30px 0;
+        box-shadow: 0 10px 20px #000;
+        border-radius: 500px;
+
+    }
+}
+
+@media (max-width: 767px){
+    main ul li h2{
+        font-size: 30px;
+        font-weight: 700;    }
+
+}
+
+
+
+
+
+.video{
+    width: 320px;
+    height: 200px;
+    border: 1px solid rgb(253, 0, 0);
+    margin: 0 auto 30px auto;
+    position: relative;
+    z-index: 0;
+    opacity: 0.5;
+    filter: grayscale();
+    transition: 1s;
+}
+
+.video:hover{
+    opacity: 1;
+    filter: none;
+    border-radius: 100px;
+    background: blue;
+}
+
+.play{
+    width: 100px;
+    height: 100px;
+    background: #c702ef40;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+}
+
+
+.listagem-de-videos{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.video-responsivo{
+    position: relative;
+    width: 100%;
+    padding-top: 52%;
+    border: 1px solid #ff0000;
+}
+.video-responsivo iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }

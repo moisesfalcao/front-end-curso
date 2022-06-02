@@ -53,7 +53,7 @@ header nav{
 
 
 header nav.hamburguer{
-
+    width: 218px;
 }
 
 
@@ -272,12 +272,22 @@ main section.modulos-home.bbb ul li{
     opacity: .5;
 
 }
+
+@media (max-width: 767px){
+    main section.modulos-home.bbb ul li{
+        width: 100%;
+    }
+}
+
 main section.modulos-home.bbb ul li:hover{
     opacity: 1;
     filter: sepia(5%);
     filter: blur(0px);
     box-shadow: 0px 0px 20px #000;
 }
+
+
+
 main section.modulos-home.bbb ul li:hover figcaption{
     font-size: 30px;
 }
