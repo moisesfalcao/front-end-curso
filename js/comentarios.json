@@ -1,0 +1,27 @@
+{
+    "comentarios": [
+		{
+            "texto": "Texto 1",
+            "autor": "Fulano 1"
+        },
+        {
+            "texto": "Texto 2",
+            "autor": "Fulano 2"
+        },
+        {
+            "texto": "Texto 3",
+            "autor": "Fulano 3"
+        },
+        {
+            "texto": "Texto 4",
+            "autor": "Fulano 4"
+        },
+        {
+            "texto": "Texto 5",
+            "autor": "Fulano 5"
+        },
+        {
+            "texto": "Texto 6",
+            "autor": "Fulano 6"
+        }]
+}

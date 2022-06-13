@@ -8,20 +8,15 @@ comentarios[4] = "Trabalho em uma empresa que foi multada - Abelardo Tite";
 
 
 function mostrarComentarios(){
-
     var ulComentarios = document.querySelector('article section ul');
     comentarios.forEach(function( item ,index,array){
         var novaLi = document.createElement('li');
         novaLi.append(item);
         ulComentarios.append(novaLi);
     });
-
-
     document.querySelector('article section').style.display = 'block';
     document.querySelector('article button').style.display = 'none';
 }
-
-
 
 window.onload = function(){
     document.querySelector('article button').onclick = function(){
@@ -32,6 +27,8 @@ window.onload = function(){
 
 
 
+
+ 
 
 
 /*
