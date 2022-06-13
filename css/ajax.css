@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+}
+img{  
+    width: 100%;
+}
+article{
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+}
+article h1{
+    font-weight: 900;
+    margin: 0 0 20px 0;
+    color: rgb(79, 90, 101);
+}
+article figure img{
+    border-radius: 3px;
+    margin: 0 0 20px 0;
+}
+article figure figcaption{
+    padding: 0 0 0 20px;
+    border-left: 3px solid #ccc;
+    margin: 0 0 20px 0;
+    font-size: 16px;
+}
+article button{
+    font-size: 16px;
+    box-shadow: 1px 1px 2px #333;
+    width: 100%;
+    padding: 20px 0;
+    cursor: pointer;
+}
+article section{
+    background: rgb(241, 241, 241);
+    display: none; 
+}
+article section h2{ 
+    padding: 20px;
+    font-size: 16px;
+    background:#333;
+    color: #fff;
+}
+article section ul{
+    padding: 0 20px 20px 20px;
+}
+article section ul li{
+    list-style: none;
+    border-bottom: 1px dashed rgb(85, 85, 85);
+    padding: 20px 0;
+} 
